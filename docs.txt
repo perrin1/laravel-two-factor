@@ -1,0 +1,10 @@
+ composer require laravel/fortify
+
+ php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
+
+ php artisan migrate
+
+
+ faire les peite configuration dans les fichier de provider de fortify pui dnas user puis dans config.app.php puis dans config/fortify.php 
+
+ suppeimer auth.php dans les routes 
