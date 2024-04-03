@@ -67,6 +67,7 @@ class FortifyServiceProvider extends ServiceProvider
             return view('auth.confirm-password');
         });
 
+        
 
     }
 }
